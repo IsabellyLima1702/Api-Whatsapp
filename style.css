@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ ul, ol,li{
+ list-style: none;
+
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(223, 226, 226);
+}
+
+.menu{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.menu img{
+    height: 6vh;
+    margin-left: -16vw;
+    margin-top: 13vh;
+}
+
+.status{
+    margin-top: -10vh;
+}
+.canais{
+    margin-top: -10vh;
+}
+.comunidade{
+    margin-top: -10vh;
+}
+
+.perfil{
+    margin-top: 20vh;
+}
+
+.engrenagem{
+    margin-top: -10vh;
+}
+.logo img{
+    height: 20vh;
+    margin-left: 2vw;
+    margin-top: -6vh;
+
+}
+ 
+.conversas{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.conversas h2{
+    margin-left: 1vw;
+    margin-top: 30vh;
+}
+
+main{
+   
+    background-color: white;
+    
+}
+
+.dados{
+    margin-top: 9vh;
+    margin-left: -20vh;
+    margin-right: 50vw;
+    height: 91vh;
+    width: 40vw;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+
+}
+.dados h2{
+    font-size: 3vh;
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+
+.barra{
+    margin-left: 3.5vh;
+    margin-top: 5vh;
+    height: 4.5vh;
+    width: 30vw;
+    font-size: 1.7vh;
+    border-radius: 1vh;
+    background-color: rgb(235, 235, 235);
+}
+
+.pesquisar{
+height: 4.5vh;
+width: 6vw;
+margin-left: 43vh;
+font-size: 2vh;
+background-color: rgb(186, 187, 187);
+color: rgb(255, 255, 255);
+border-radius: 2vh;
+}
+
+
+.plano img{
+    margin-left: 2vh;
+}
