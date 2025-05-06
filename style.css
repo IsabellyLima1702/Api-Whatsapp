@@ -51,6 +51,7 @@ header{
     align-items: center;
     display: flex;
     margin-top: -94.5vh;
+    cursor: pointer;
 }
 
 .menu img{
@@ -102,14 +103,13 @@ header{
     color: black;
     gap: 0.5rem;
     font-family: Arial, Helvetica, sans-serif;
-
+    cursor: pointer;
 }
 
 .informacoes h2{
     font-size: 2.5vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 1vw;
-
 }
 
 .barra{
@@ -134,6 +134,7 @@ header{
 #contato img{
     height: 4vh;
     margin-left: 1vw;
+    cursor: pointer;
 }
 
 #enviar{
@@ -156,21 +157,34 @@ header{
     display: flex;
     flex-direction: column;
     position: absolute;
-
+    gap: 10px;
+    
 }
 .destinatario{
     background-color:#ffffff;
     padding: 1vw;
-    font-size: 3vh;
+    font-size: 2.5vh;
     width: max-content;
     border-radius: 2vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .remetente{
     background-color:#8ff0a7;
     padding: 1vw;
-    font-size: 3vh;
+    font-size: 2.5vh;
     width: max-content;
     border-radius: 2vh;
     display: flex;
     align-self: flex-end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.remetente h3{
+    margin-left: 2vh;
+}
+
+.cont{
+    background-color: rgb(241, 241, 241);
+    padding: 4px;
+    border-bottom: 1px solid #a09f9f;
 }
